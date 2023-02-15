@@ -23,7 +23,7 @@ const SearchMovie = () => {
   return (
     <div className="mt-4">
       <form onSubmit={searchMovies}>
-        <label className="form-label fw-normal" htmlFor="query">
+        <label className="form-label fw-normal text-white" htmlFor="query">
           Movie Title
         </label>
         <input
